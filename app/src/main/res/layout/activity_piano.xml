@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="550dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button1l"
+            android:layout_width="match_parent"
+            android:layout_height="78.5dp"
+            android:drawableLeft="@drawable/di_1" />
+
+        <Button
+            android:id="@+id/button2l"
+            android:layout_width="match_parent"
+            android:layout_height="78.5dp"
+            android:drawableLeft="@drawable/di_2"/>
+
+        <Button
+            android:id="@+id/button3l"
+            android:layout_width="match_parent"
+            android:layout_height="78.5dp"
+            android:drawableLeft="@drawable/di_3" />
+
+        <Button
+            android:id="@+id/button4l"
+            android:layout_width="match_parent"
+            android:layout_height="78.5dp"
+            android:drawableLeft="@drawable/di_4" />
+
+        <Button
+            android:id="@+id/button5l"
+            android:layout_width="match_parent"
+            android:layout_height="78.5dp"
+            android:drawableLeft="@drawable/di_5" />
+
+        <Button
+            android:id="@+id/button6l"
+            android:layout_width="match_parent"
+            android:layout_height="78.5dp"
+            android:drawableLeft="@drawable/di_6" />
+
+        <Button
+            android:id="@+id/button7l"
+            android:layout_width="match_parent"
+            android:layout_height="78.5dp"
+            android:drawableLeft="@drawable/di_7" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="140dp"
+        android:layout_height="550dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button1z"
+            android:layout_width="match_parent"
+            android:layout_height="78.5dp"
+            android:drawableLeft="@drawable/z_1" />
+
+        <Button
+            android:id="@+id/button2z"
+            android:layout_width="match_parent"
+            android:layout_height="78.5dp"
+            android:drawableLeft="@drawable/z_2" />
+
+        <Button
+            android:id="@+id/button3z"
+            android:layout_width="match_parent"
+            android:layout_height="78.5dp"
+            android:drawableLeft="@drawable/z_3" />
+
+        <Button
+            android:id="@+id/button4z"
+            android:layout_width="match_parent"
+            android:layout_height="78.5dp"
+            android:drawableLeft="@drawable/z_4" />
+
+        <Button
+            android:id="@+id/button5z"
+            android:layout_width="match_parent"
+            android:layout_height="78.5dp"
+            android:drawableLeft="@drawable/z_5" />
+
+        <Button
+            android:id="@+id/button6z"
+            android:layout_width="match_parent"
+            android:layout_height="78.5dp"
+            android:drawableLeft="@drawable/z_6" />
+
+        <Button
+            android:id="@+id/button7z"
+            android:layout_width="match_parent"
+            android:layout_height="78.5dp"
+            android:drawableLeft="@drawable/z_7" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="127dp"
+        android:layout_height="550dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.99"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <Button
+            android:id="@+id/button1h"
+            android:layout_width="match_parent"
+            android:layout_height="78.5dp"
+            android:drawableLeft="@drawable/gao_1"  />
+
+        <Button
+            android:id="@+id/button2h"
+            android:layout_width="match_parent"
+            android:layout_height="78.5dp"
+            android:drawableLeft="@drawable/gao_2" />
+
+        <Button
+            android:id="@+id/button3h"
+            android:layout_width="match_parent"
+            android:layout_height="78.5dp"
+            android:drawableLeft="@drawable/gao_3" />
+
+        <Button
+            android:id="@+id/button4h"
+            android:layout_width="match_parent"
+            android:layout_height="78.5dp"
+            android:drawableLeft="@drawable/gao_4" />
+
+        <Button
+            android:id="@+id/button5h"
+            android:layout_width="match_parent"
+            android:layout_height="78.5dp"
+            android:drawableLeft="@drawable/gao_5" />
+
+        <Button
+            android:id="@+id/button6h"
+            android:layout_width="match_parent"
+            android:layout_height="78.5dp"
+            android:drawableLeft="@drawable/gao_6" />
+
+        <Button
+            android:id="@+id/button7h"
+            android:layout_width="match_parent"
+            android:layout_height="78.5dp"
+            android:drawableLeft="@drawable/gao_7" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
